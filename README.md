@@ -25,10 +25,10 @@ Add the these lines to your `theme.toml` configuration file to use it:
 dark = "iterm2-dark"
 ```
 ## ✨ Inspiration
-This project is a fork from <mark>kmlupreti's ayu dark theme<mark>
+This project is a fork from `kmlupreti's ayu dark theme`
 
 ## 📝 To do 
-Need to change ththeme.xml file from <mark>kmlupreti's ayu dark theme to match iterm2 dark theme<mark>
+Need to change ththeme.xml file from `kmlupreti's ayu dark theme` to `match iterm2 dark theme`
 
 ## 📜 License
 
