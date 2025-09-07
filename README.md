@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```bash
-ya pkg -a ArchLang/iterm2-dark
+ya pkg  ArchLang/iterm2-dark
 ```
 
 ## ⚙️ Usage
