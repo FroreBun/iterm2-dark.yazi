@@ -27,6 +27,9 @@ dark = "iterm2-dark"
 ## ✨ Inspiration
 This project is a fork from 'kmlupreti's ayu dark theme'
 
+## 📝 To do 
+Need to change ththeme.xml file from 'kmlupreti's ayu dark theme' to match 'iterm2 dark theme'
+
 ## 📜 License
 
 The flavor is MIT-licensed, and the included tmTheme is also MIT-licensed.
