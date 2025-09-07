@@ -28,7 +28,7 @@ dark = "iterm2-dark"
 This project is a fork from <mark>kmlupreti's ayu dark theme<mark>
 
 ## 📝 To do 
-Need to change ththeme.xml file from <mark>kmlupreti's ayu dark theme<mark> to match <mark>iterm2 dark theme<mark>
+Need to change ththeme.xml file from <mark>kmlupreti's ayu dark theme to match iterm2 dark theme<mark>
 
 ## 📜 License
 
