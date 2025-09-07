@@ -3,7 +3,7 @@
 </div>
 
 <h3 align="center">
-	Ayu Dark Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
+	iterm2 Dark Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
 
 ## 👀 Preview
@@ -22,8 +22,10 @@ Add the these lines to your `theme.toml` configuration file to use it:
 
 ```toml
 [flavor]
-dark = "ayu-dark"
+dark = "iterm2-dark"
 ```
+## ✨ Inspiration
+This project is a fork from 'kmlupreti's ayu dark theme ->' <a href="https://github.com/kmlupreti/ayu-dark.yazi"> 
 
 ## 📜 License
 
