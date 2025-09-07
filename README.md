@@ -13,7 +13,7 @@
 ## 🎨 Installation
 
 ```bash
-ya pack -a ArchLang/iterm2-dark
+ya pkg -a ArchLang/iterm2-dark
 ```
 
 ## ⚙️ Usage
@@ -25,7 +25,7 @@ Add the these lines to your `theme.toml` configuration file to use it:
 dark = "iterm2-dark"
 ```
 ## ✨ Inspiration
-This project is a fork from 'kmlupreti's ayu dark theme '
+This project is a fork from 'kmlupreti's ayu dark theme'
 
 ## 📜 License
 
