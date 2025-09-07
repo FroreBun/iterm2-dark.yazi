@@ -3,96 +3,78 @@
   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>Ansi 0 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.0588</real>
-    <key>Green Component</key><real>0.0784</real>
-    <key>Blue Component</key><real>0.0980</real>
-  </dict>
+  <key>name</key>
+  <string>iTerm2 Dark</string>
+  <key>settings</key>
+  <array>
+    <!-- Global settings -->
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key><string>#0F1419</string>
+        <key>foreground</key><string>#BFBAB0</string>
+        <key>caret</key><string>#F29718</string>
+        <key>selection</key><string>#20272C</string>
+        <key>invisibles</key><string>#5C6773</string>
+        <key>lineHighlight</key><string>#131E27</string>
+      </dict>
+    </dict>
 
-  <key>Ansi 1 Color</key>
-  <dict>
-    <key>Red Component</key><real>1.0000</real>
-    <key>Green Component</key><real>0.2000</real>
-    <key>Blue Component</key><real>0.2000</real>
-  </dict>
+    <!-- Comments -->
+    <dict>
+      <key>name</key><string>Comment</string>
+      <key>scope</key><string>comment</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#5C6773</string></dict>
+    </dict>
 
-  <key>Ansi 2 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.7607</real>
-    <key>Green Component</key><real>0.8509</real>
-    <key>Blue Component</key><real>0.2980</real>
-  </dict>
+    <!-- Strings -->
+    <dict>
+      <key>name</key><string>String</string>
+      <key>scope</key><string>string</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#C2D94C</string></dict>
+    </dict>
 
-  <key>Ansi 3 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.9490</real>
-    <key>Green Component</key><real>0.5921</real>
-    <key>Blue Component</key><real>0.0941</real>
-  </dict>
+    <!-- Numbers -->
+    <dict>
+      <key>name</key><string>Number</string>
+      <key>scope</key><string>constant.numeric</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF7733</string></dict>
+    </dict>
 
-  <key>Ansi 4 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.3490</real>
-    <key>Green Component</key><real>0.7607</real>
-    <key>Blue Component</key><real>1.0000</real>
-  </dict>
+    <!-- Keywords -->
+    <dict>
+      <key>name</key><string>Keyword</string>
+      <key>scope</key><string>keyword</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#FF3333</string></dict>
+    </dict>
 
-  <key>Ansi 5 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.7960</real>
-    <key>Green Component</key><real>0.6274</real>
-    <key>Blue Component</key><real>0.9725</real>
-  </dict>
+    <!-- Functions -->
+    <dict>
+      <key>name</key><string>Function</string>
+      <key>scope</key><string>entity.name.function</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#59C2FF</string></dict>
+    </dict>
 
-  <key>Ansi 6 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.5843</real>
-    <key>Green Component</key><real>0.9020</real>
-    <key>Blue Component</key><real>0.7960</real>
-  </dict>
+    <!-- Variables -->
+    <dict>
+      <key>name</key><string>Variable</string>
+      <key>scope</key><string>variable</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#95E6CB</string></dict>
+    </dict>
 
-  <key>Ansi 7 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.7490</real>
-    <key>Green Component</key><real>0.7294</real>
-    <key>Blue Component</key><real>0.6901</real>
-  </dict>
-
-  <key>Ansi 8 Color</key>
-  <dict>
-    <key>Red Component</key><real>0.3607</real>
-    <key>Green Component</key><real>0.4039</real>
-    <key>Blue Component</key><real>0.4510</real>
-  </dict>
-
-  <key>Ansi 9 Color</key>
-  <dict>
-    <key>Red Component</key><real>1.0000</real>
-    <key>Green Component</key><real>0.4666</real>
-    <key>Blue Component</key><real>0.2000</real>
-  </dict>
-
-  <key>Background Color</key>
-  <dict>
-    <key>Red Component</key><real>0.0588</real>
-    <key>Green Component</key><real>0.0784</real>
-    <key>Blue Component</key><real>0.0980</real>
-  </dict>
-
-  <key>Foreground Color</key>
-  <dict>
-    <key>Red Component</key><real>0.7490</real>
-    <key>Green Component</key><real>0.7294</real>
-    <key>Blue Component</key><real>0.6901</real>
-  </dict>
-
-  <key>Cursor Color</key>
-  <dict>
-    <key>Red Component</key><real>0.9490</real>
-    <key>Green Component</key><real>0.5921</real>
-    <key>Blue Component</key><real>0.0941</real>
-  </dict>
+    <!-- Types -->
+    <dict>
+      <key>name</key><string>Type</string>
+      <key>scope</key><string>entity.name.type</string>
+      <key>settings</key>
+      <dict><key>foreground</key><string>#7960F9</string></dict>
+    </dict>
+  </array>
 </dict>
 </plist>
-
