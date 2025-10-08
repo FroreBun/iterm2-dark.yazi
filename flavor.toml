@@ -46,3 +46,46 @@ warn  = { fg = "#FF7733" }
 info  = { fg = "#59C2FF" }
 debug = { fg = "#5C6773" }
 
+
+[icon]
+prepend_conds = [
+	{ if = "hidden & dir",  text = " " },  # Hidden directories
+	{ if = "dir",           text = " " },  # Directories
+	{ if = "!(dir | link)", text = " " },  # Normal files (not directories or symlinks)
+]
+
+prepend_dirs = [
+        { name = "durdraw", text = "󰏘 " }, # Example: custom icon for "Durdraw"
+        { name = "Applications", text = "󱌢 " }, # Example: custom icon for "applications"
+        { name = "Library", text = " " }, # Example: custom icon for "Library"
+        { name = "projects", text = " " }, # Example: custom icon for "projects"
+        { name = "res", text = " " }, # Example: custom icon for "resources"
+        { name = "ghostty", text = " " }, # Example: custom icon for "resources"
+        { name = "yazi", text = "󰇥 " }, # Example: custom icon for "resources"
+        { name = "btop", text = "󰍛 " }, # Example: custom icon for "resources"
+        { name = "neofetch", text = "󰨇 " }, # Example: custom icon for "resources"
+        { name = "fastfetch", text = "󰨇 " }, # Example: custom icon for "resources"
+        { name = "linearmouse", text = " " }, # Example: custom icon for "resources"
+        { name = "raycast", text = " " }, # Example: custom icon for "resources"
+        { name = "zsh", text = "󱙷 " }, # Example: custom icon for "resources"
+        { name = "micro", text = "󱩼 " }, # Example: custom icon for "resources"
+        { name = "Shared", text = " " }, # Example: custom icon for "resources"
+        { name = "sai", text = " " }, # Example: custom icon for "resources"
+        { name = "admin", text = " " }, # Example: custom icon for "resources"
+	# For hidded folders
+	{ name = ".durdraw", text = "󰽉 " },
+	{ name = ".cache", text = " " },
+	{ name = ".local", text = " " },
+	{ name = ".thumbnails", text = " " },
+	{ name = ".Trash", text = " " }, 
+	{ name = ".zsh_sessions", text = "󱙷 " }, 
+	{ name = ".vim", text = " " },
+	{ name = ".vscode", text = " " },
+	{ name = ".vscode-oss", text = " " },
+]
+append_exts = [
+	# ...
+]
+
+
+
