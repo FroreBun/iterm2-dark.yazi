@@ -7,8 +7,9 @@
 </h3>
 
 ## 👀 Preview
-
+<h4 align="center">
 <img src="preview.png" width="600" />
+<h4>
 
 ## 🎨 Installation
 
