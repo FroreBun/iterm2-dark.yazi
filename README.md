@@ -30,7 +30,8 @@ This project is a fork from `kmlupreti's ayu dark theme`
 
 ## 📝 To do 
 Need to change ththeme.xml file from `kmlupreti's ayu dark theme` to `match iterm2 dark theme`
-⚠️ Need to fix theme for the latest yazi update
+## ⚠️ Urgent fixes
+Need to fix theme for the latest yazi update
 
 ## 📜 License
 
